@@ -1,0 +1,80 @@
+body{
+    background-color: grey;
+}
+
+#startgame {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.buttons
+{
+    font-size: 30px;
+font-weight: 700px;
+transition: 0.2s linear;
+}
+
+.buttons:hover {
+  
+    font-size: 50px;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+    padding: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    gap: 20px;
+}
+
+.options{
+    background-color: white;
+    color: black;
+    transition: 0.2s linear;
+    border-radius: 7px;
+    width: 320px;
+    height: 130px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.options:hover {
+    background-color: rgb(133, 133, 133);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#results
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+
+    margin-top: 20px;
+}
+
+.userscore,
+.computerscore
+{
+    
+    display: flex;
+    padding: 20px;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    font-weight: 700px;
+    font-size: 30px;
+    transition: 0.2s linear;
+}
+
+.userscore:hover,
+.computerscore:hover{
+font-size: 35px;
+}
