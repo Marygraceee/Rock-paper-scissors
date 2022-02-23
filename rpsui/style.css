@@ -11,19 +11,14 @@ body{
 
 .buttons
 {
-    background-color: white;
-    color: black;
-    transition: 0.2s linear;
-    border-radius: 7px;
-    width: 300px;
-    height: 120px;
-    font-size: 20px;
-    border: 2px solid black;
+    font-size: 30px;
+font-weight: 700px;
+transition: 0.2s linear;
 }
 
 .buttons:hover {
-    background-color: rgb(133, 133, 133);
-    font-size: 30px;
+  
+    font-size: 50px;
 }
 
 #choices {
@@ -37,9 +32,7 @@ body{
     gap: 20px;
 }
 
-.rock,
-.paper,
-.scissors{
+.options{
     background-color: white;
     color: black;
     transition: 0.2s linear;
@@ -50,9 +43,7 @@ body{
     border: 2px solid black;
 }
 
-.rock:hover,
-.paper:hover,
-.scissors:hover {
+.options:hover {
     background-color: rgb(133, 133, 133);
     font-size: 30px;
     font-weight: 700;
